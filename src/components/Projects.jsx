@@ -3,29 +3,27 @@ import React from "react";
 const Projects = ({ darkMode, visibleElements }) => {
   const projects = [
     {
-  id: 1,
-  title: "DevOps Engineering Playground",
-  description:
-    "A hands-on DevOps repository showcasing real-world implementations of cloud infrastructure 
-     automation, CI/CD pipelines, containerization, Kubernetes operations, and observability. Includes
-     Terraform IaC, Ansible playbooks, GitHub Actions workflows, Docker-based pipelines, Kubernetes 
-     cluster setup, monitoring with Prometheus and Grafana, and Bash/Python automation scripts.",
-  icon: "⚙️",
-  demo: null, // DevOps repos usually don’t have live demos
-  github: "https://github.com/manoj239/AllDevSecops",
-},
-{
-  id: 2,
-  title: "MLOps Engineering Fundamentals",
-  description:
-    "A dedicated MLOps repository focused on AI production engineering fundamentals. Demonstrates 
-    applying DevOps principles to the MLOps lifecycle, including model deployment concepts, CI/CD 
-    for ML workflows, automation, experiment tracking basics, and monitoring ML systems using 
-    cloud-native and Kubernetes-based approaches.",
-  icon: "🤖",
-  demo: null, // Learning-focused MLOps repo
-  github: "https://github.com/manoj239/ML-Yellow",
-},
+      id: 1,
+      title: "DevOps Engineering Playground",
+      description: `A hands-on DevOps repository showcasing real-world implementations of cloud infrastructure
+automation, CI/CD pipelines, containerization, Kubernetes operations, and observability.
+Includes Terraform IaC, Ansible playbooks, GitHub Actions workflows, Docker-based pipelines,
+Kubernetes cluster setup, monitoring with Prometheus and Grafana, and Bash/Python automation scripts.`,
+      icon: "⚙️",
+      demo: null, // DevOps repos usually don’t have live demos
+      github: "https://github.com/manoj239/AllDevSecops",
+    },
+    {
+      id: 2,
+      title: "MLOps Engineering Fundamentals",
+      description: `A dedicated MLOps repository focused on AI production engineering fundamentals.
+Demonstrates applying DevOps principles to the MLOps lifecycle, including model deployment concepts,
+CI/CD for ML workflows, automation, experiment tracking basics, and monitoring ML systems using
+cloud-native and Kubernetes-based approaches.`,
+      icon: "🤖",
+      demo: null, // Learning-focused MLOps repo
+      github: "https://github.com/manoj239/ML-Yellow",
+    },
   ];
 
   return (
@@ -52,8 +50,8 @@ const Projects = ({ darkMode, visibleElements }) => {
               darkMode ? "text-slate-400" : "text-slate-600"
             }`}
           >
-            Hands‑on repositories focused on building scalable, 
-            automated, and production‑ready DevOps and MLOps systems.
+            Hands‑on repositories focused on building scalable, automated,
+            and production‑ready DevOps and MLOps systems.
           </p>
         </div>
 
@@ -73,7 +71,7 @@ const Projects = ({ darkMode, visibleElements }) => {
               }`}
               style={{ transitionDelay: `${index * 0.15}s` }}
             >
-              {/* Icon Container */}
+              {/* Icon */}
               <div
                 className={`text-5xl w-20 h-20 rounded-2xl flex items-center justify-center flex-shrink-0 transition-all duration-300 group-hover:scale-110 group-hover:rotate-3 ${
                   darkMode
@@ -84,7 +82,7 @@ const Projects = ({ darkMode, visibleElements }) => {
                 {project.icon}
               </div>
 
-              {/* Text Content */}
+              {/* Text */}
               <div className="flex-grow">
                 <h3
                   className={`text-2xl font-serif mb-2 transition-colors duration-500 ${
@@ -102,9 +100,8 @@ const Projects = ({ darkMode, visibleElements }) => {
                 </p>
               </div>
 
-              {/* Buttons Container */}
+              {/* Buttons */}
               <div className="flex flex-row md:flex-col lg:flex-row gap-3 mt-4 md:mt-0 flex-shrink-0 w-full md:w-auto">
-                {/* Live Demo Button (Only shows if link exists) */}
                 {project.demo && (
                   <a
                     href={project.demo}
@@ -116,7 +113,6 @@ const Projects = ({ darkMode, visibleElements }) => {
                   </a>
                 )}
 
-                {/* GitHub Button (Only shows if link exists) */}
                 {project.github && (
                   <a
                     href={project.github}

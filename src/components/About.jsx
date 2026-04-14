@@ -1,6 +1,9 @@
 import React from "react";
+import { getExperienceCompactText, getExperienceText } from '../utils/experience'
 
 const About = ({ darkMode, visibleElements }) => {
+  const experienceText = getExperienceText()
+  const experienceCompactText = getExperienceCompactText()
   return (
     <section
       id="about"
@@ -34,7 +37,7 @@ const About = ({ darkMode, visibleElements }) => {
                 darkMode ? "text-slate-100" : "text-slate-900"
               }`}
             >
-              AWS DevOps Engineer
+              AWS DevOps Engineer {experienceCompactText}
             </span>{" "}
             with{" "}
             <span className="font-bold text-orange-500">

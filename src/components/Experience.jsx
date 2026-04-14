@@ -1,30 +1,36 @@
 import React from "react";
+import { getExperienceCompactText, getExperienceText } from '../utils/experience'
 
 const Experience = ({ darkMode, visibleElements }) => {
+  const experienceCompactText = getExperienceCompactText()
+  
   const experiences = [
     {
       id: 1,
       icon: "⚙️",
-      title: "AWS Devops Engineer",
+      title: `AWS DevOps Engineer ${experienceCompactText}` ,
       company: "Infosys (Client: MetLife, EBSCO)",
       period: "November 2021 - Present",
-      description:
-        "As an AWS DevOps Engineer at Infosys, I have been responsible for designing, implementing,
-         and maintaining cloud infrastructure on AWS for clients like MetLife and EBSCO. My role 
-         involves automating deployment pipelines using CI/CD tools such as GitHub Actions, managing
-         containerized applications with Docker and Kubernetes, and ensuring high availability and 
-         scalability of cloud resources. I have also worked on infrastructure as code using Terraform 
-         and CloudFormation, enabling efficient provisioning and management of AWS services.",
+      description: `As an AWS DevOps Engineer at Infosys, I have been responsible for designing,
+implementing, and maintaining cloud infrastructure on AWS for clients like MetLife and EBSCO.
+
+My role involves automating deployment pipelines using CI/CD tools such as GitHub Actions,
+managing containerized applications with Docker and Kubernetes, and ensuring high availability
+and scalability of cloud resources.
+
+I have also worked extensively with Infrastructure as Code using Terraform and CloudFormation,
+enabling efficient provisioning, versioning, and management of AWS services.`,
     },
-    // {
-    //   id: 3,
-    //   icon: "🎓",
-    //   title: "B.Tech in EEE",
-    //   College: "Lakireddy Bali Reddy College of Engineering",
-    //   period: "2017 - 2021",
-    //   description:
-    //     "Graduated with a Bachelor's degree in Electrical & Electronics Engineering. Built strong analytical and engineering fundamentals, which later transitioned into cloud computing, DevOps practices, and automation. This foundation continues to support my work in scalable systems and my transition into MLOps engineering .",
-    // }
+    {
+      id: 2,
+      icon: "🎓",
+      title: "B.Tech in EEE",
+      College: "Lakireddy Bali Reddy College of Engineering",
+      period: "2017 - 2021",
+      description: `Graduated with a Bachelor's degree in Electrical &
+    Electronics Engineering. Built strong analytical and engineering fundamentals,
+    which later transitioned into cloud computing, DevOps practices, and automation.`,
+    }
   ];
 
   return (
@@ -45,6 +51,7 @@ const Experience = ({ darkMode, visibleElements }) => {
         >
           Experience
         </h2>
+
         <p
           data-animate-id="experience-subheading"
           className={`text-center mb-16 text-lg scroll-reveal transition-colors duration-500 ${
