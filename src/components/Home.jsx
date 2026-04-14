@@ -21,12 +21,9 @@ const Home = ({ darkMode }) => {
               darkMode ? "text-slate-300" : "text-slate-700"
             }`}
           >
-            AWS DevSecOps Engineer with hands‑on experience in designing and
-            building scalable, secure AWS cloud platforms using core AWS
-            services, infrastructure automation, and DevOps tools. Currently
-            transitioning into MLOps Engineering (AI Production Engineering),
-            focusing on operating and scaling modern machine learning systems in
-            production using DevOps principles.
+            AWS DevSecOps Engineer focused on scalable AWS cloud platforms,
+            automation, and CI/CD, now transitioning into MLOps Engineering
+            for production ML systems.
           </p>
         </div>
       </div>
