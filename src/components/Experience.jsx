@@ -6,9 +6,18 @@ const Experience = ({ darkMode, visibleElements }) => {
   
   const experiences = [
     {
+      id: 1,
+      icon: "🎓",
+      title: "B.Tech in EEE from LBRCE College",
+      College: "Lakireddy Bali Reddy College of Engineering",
+      period: "2017 - 2021",
+      description: `Graduated with a Bachelor's degree in Electrical & Electronics Engineering. Built strong analytical and engineering fundamentals,
+which later transitioned into cloud computing, DevOps practices, and automation.`,
+    },
+    {
       id: 2,
       icon: "⚙️",
-      title: `AWS DevOps Engineer ${experienceCompactText}` ,
+      title: `AWS DevOps Engineer ${experienceCompactText}`,
       company: "Infosys (Client: MetLife, EBSCO)",
       period: "November 2021 - Present",
       description: `As an AWS DevOps Engineer at Infosys, I have been responsible for designing,
@@ -21,16 +30,6 @@ and scalability of cloud resources.
 I have also worked extensively with Infrastructure as Code using Terraform and CloudFormation,
 enabling efficient provisioning, versioning, and management of AWS services.`,
     },
-    {
-      id: 1,
-      icon: "🎓",
-      title: "B.Tech in EEE from LBRCE College",
-      College: "Lakireddy Bali Reddy College of Engineering",
-      period: "2017 - 2021",
-      description: `Graduated with a Bachelor's degree in Electrical &
-    Electronics Engineering. Built strong analytical and engineering fundamentals,
-    which later transitioned into cloud computing, DevOps practices, and automation.`,
-    }
   ];
 
   return (
@@ -94,13 +93,15 @@ enabling efficient provisioning, versioning, and management of AWS services.`,
                 {exp.title}
               </h3>
 
-              <p
-                className={`font-medium mb-2 transition-colors duration-500 ${
-                  darkMode ? "text-orange-400" : "text-orange-600"
-                }`}
-              >
-                {exp.company}
-              </p>
+              {exp.company && (
+                <p
+                  className={`font-medium mb-2 transition-colors duration-500 ${
+                    darkMode ? "text-orange-400" : "text-orange-600"
+                  }`}
+                >
+                  {exp.company}
+                </p>
+              )}
 
               <p
                 className={`text-sm mb-4 transition-colors duration-500 ${
