@@ -14,7 +14,7 @@ const Home = ({ darkMode }) => {
               darkMode ? "text-slate-100" : "text-slate-900"
             }`}
           >
-            Hi, I'm <span className="text-orange-500">Manoj Kumar👋</span>
+            Hi, I'm <span className="text-orange-500">Manoj 👋</span>
           </h1>
           <p
             className={`text-2xl md:text-3xl font-light animate-slideInLeft delay-200 transition-colors duration-500 max-w-3xl mx-auto ${

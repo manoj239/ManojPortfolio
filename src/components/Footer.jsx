@@ -24,13 +24,13 @@ const Footer = ({ visibleElements }) => {
             rel="noopener noreferrer"
             className="hover:text-amber-300 transition-all duration-300 text-lg hover:scale-110 inline-block"
           >
-            LinkedIn
+            LinkedIn ↗
           </a>
           <a
             href="mailto:manojkumar.borra@infosys.com"
             className="hover:text-amber-300 transition-all duration-300 text-lg hover:scale-110 inline-block"
           >
-            Email
+            Email ↗
           </a>
         </div>
         <div
