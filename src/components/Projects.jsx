@@ -16,10 +16,9 @@ Kubernetes cluster setup, monitoring with Prometheus and Grafana, and Bash/Pytho
     {
       id: 2,
       title: "MLOps Engineering Fundamentals",
-      description: `A dedicated MLOps repository focused on AI production engineering fundamentals.
-Demonstrates applying DevOps principles to the MLOps lifecycle, including model deployment concepts,
-CI/CD for ML workflows, automation, experiment tracking basics, and monitoring ML systems using
-cloud-native and Kubernetes-based approaches.`,
+      description: `A focused MLOps repository demonstrating AI production engineering fundamentals by
+applying DevOps practices to the MLOps lifecycle, including CI/CD for ML workflows, automation, model
+deployment concepts, experiment tracking, and monitoring ML systems using cloud‑native and Kubernetes‑based platforms..`,
       icon: "🤖",
       demo: null, // Learning-focused MLOps repo
       github: "https://github.com/manoj239/ML-Yellow",

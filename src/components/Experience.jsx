@@ -6,7 +6,7 @@ const Experience = ({ darkMode, visibleElements }) => {
   
   const experiences = [
     {
-      id: 1,
+      id: 2,
       icon: "⚙️",
       title: `AWS DevOps Engineer ${experienceCompactText}` ,
       company: "Infosys (Client: MetLife, EBSCO)",
@@ -22,9 +22,9 @@ I have also worked extensively with Infrastructure as Code using Terraform and C
 enabling efficient provisioning, versioning, and management of AWS services.`,
     },
     {
-      id: 2,
+      id: 1,
       icon: "🎓",
-      title: "B.Tech in EEE",
+      title: "B.Tech in EEE from LBRCE College",
       College: "Lakireddy Bali Reddy College of Engineering",
       period: "2017 - 2021",
       description: `Graduated with a Bachelor's degree in Electrical &
@@ -49,7 +49,7 @@ enabling efficient provisioning, versioning, and management of AWS services.`,
             darkMode ? "text-slate-100" : "text-slate-900"
           } ${visibleElements.has("experience-heading") ? "visible" : ""}`}
         >
-          Experience
+          Education & Experience
         </h2>
 
         <p
