@@ -16,7 +16,7 @@ const Footer = ({ visibleElements }) => {
             rel="noopener noreferrer"
             className="hover:text-amber-300 transition-all duration-300 text-lg hover:scale-110 inline-block"
           >
-            GitHub →
+            GitHub ↗
           </a>
           <a
             href="https://www.linkedin.com/in/manoj-kumar-borra-b2035818a/"

@@ -1,6 +1,5 @@
 import React from "react";
 
-
 const Home = ({ darkMode }) => {
   return (
     <section
@@ -16,14 +15,18 @@ const Home = ({ darkMode }) => {
           >
             Hi, I'm <span className="text-orange-500">Manoj 👋</span>
           </h1>
+
           <p
             className={`text-2xl md:text-3xl font-light animate-slideInLeft delay-200 transition-colors duration-500 max-w-3xl mx-auto ${
               darkMode ? "text-slate-300" : "text-slate-700"
             }`}
           >
-            AWS DevSecOps Engineer Transitioning to MLOps Engineer in AI stream
-            I  Build scalable cloud platforms and reliable Modern  ML systems using 
-            automation, Kubernetes, CI/CD, and observability..
+            AWS DevSecOps Engineer with hands‑on experience in designing and
+            building scalable, secure AWS cloud platforms using core AWS
+            services, infrastructure automation, and DevOps tools. Currently
+            transitioning into MLOps Engineering (AI Production Engineering),
+            focusing on operating and scaling modern machine learning systems in
+            production using DevOps principles.
           </p>
         </div>
       </div>
