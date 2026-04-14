@@ -13,7 +13,7 @@ import Experience from "./components/Experience";
 const Portfolio = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [visibleElements, setVisibleElements] = useState(new Set());
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
   console.log("test");
 
   const observerRef = useRef(null);
