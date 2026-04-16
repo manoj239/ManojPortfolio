@@ -15,7 +15,7 @@ Kubernetes cluster setup, monitoring with Prometheus and Grafana, and Bash/Pytho
     },
     {
       id: 2,
-      title: "MLOps Engineering Fundamentals",
+      title: "MLOps Engineering (Need to update",
       description: `A focused MLOps repository demonstrating AI production engineering fundamentals by
 applying DevOps practices to the MLOps lifecycle, including CI/CD for ML workflows, automation, model
 deployment concepts, experiment tracking, and monitoring ML systems using cloud‑native and Kubernetes‑based platforms..`,
@@ -49,8 +49,10 @@ deployment concepts, experiment tracking, and monitoring ML systems using cloud�
               darkMode ? "text-slate-400" : "text-slate-600"
             }`}
           >
-            Hands‑on repositories focused on building scalable, automated,
-            and production‑ready DevOps and MLOps systems.
+            Hands‑on projects demonstrating real‑world experience in building scalable, automated, 
+            and production‑ready cloud, DevOps, Kubernetes, and MLOps systems using AWS and modern
+            tooling.
+
           </p>
         </div>
 

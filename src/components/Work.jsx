@@ -24,11 +24,12 @@ const Work = ({ darkMode, visibleElements }) => {
           } ${visibleElements.has("work-text") ? "visible" : ""}`}
           style={{ transitionDelay: "0.1s" }}
         >
-          I specialize in building scalable AWS cloud infrastructure, automating deployments using 
-          CI/CD pipelines, and implementing DevOps best practices. Currently, I am also 
-          transitioning into MLOps, focusing on integrating machine learning workflows with cloud 
-          and automation.  If you're looking for someone who can optimize infrastructure, improve 
-          deployment processes, or build reliable cloud systems — let’s connect!.
+          I specialize in designing and operating scalable AWS cloud infrastructure, automating deployments
+          with CI/CD pipelines, and applying DevOps best practices to ensure reliability and performance.
+          Alongside this, I am transitioning into MLOps Engineering, focusing on integrating machine 
+          learning workflows with cloud platforms, automation, and Kubernetes for production‑ready ML 
+          systems.If you’re looking for someone who can optimize infrastructure or build reliable cloud 
+          platforms — let’s connect.!.
         </p>
       </div>
     </section>

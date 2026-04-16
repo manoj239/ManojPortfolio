@@ -21,9 +21,9 @@ const Home = ({ darkMode }) => {
               darkMode ? "text-slate-300" : "text-slate-700"
             }`}
           >
-            AWS DevSecOps Engineer focused on scalable AWS cloud platforms,
-            automation, and CI/CD, now transitioning into MLOps Engineering
-            for production ML systems.
+            AWS DevSecOps Engineer focused on building scalable AWS cloud platforms using automation,
+            Kubernetes, and CI/CD pipelines, currently transitioning into MLOps Engineering to support
+            production‑grade ML systems..
           </p>
         </div>
       </div>

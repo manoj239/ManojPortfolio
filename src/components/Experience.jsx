@@ -8,7 +8,7 @@ const Experience = ({ darkMode, visibleElements }) => {
     {
       id: 1,
       icon: "🎓",
-      title: "B.Tech in EEE from LBRCE College",
+      title: "B.Tech in EEE from LBRCE College, Vijayawada, A.P",
       College: "Lakireddy Bali Reddy College of Engineering",
       period: "2017 - 2021",
       description: `Graduated with a Bachelor's degree in Electrical & Electronics Engineering. Built strong analytical and engineering fundamentals,
@@ -18,7 +18,7 @@ which later transitioned into cloud computing, DevOps practices, and automation.
       id: 2,
       icon: "⚙️",
       title: `AWS DevOps Engineer ${experienceCompactText}`,
-      company: "Infosys (Client: MetLife, EBSCO)",
+      company: "Infosys (Clients: MetLife, EBSCO)",
       period: "November 2021 - Present",
       description: `As an AWS DevOps Engineer at Infosys, I have been responsible for designing,
 implementing, and maintaining cloud infrastructure on AWS for clients like MetLife and EBSCO.

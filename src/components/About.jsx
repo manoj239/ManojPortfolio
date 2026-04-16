@@ -43,9 +43,9 @@ const About = ({ darkMode, visibleElements }) => {
             <span className="font-bold text-orange-500">
               hands-on experience
             </span>{" "}
-            in cloud infrastructure, automation, CI/CD pipelines,Kubernetes, monitoring,
-            and containerized workloads. Over the years, I have worked on
-            building{" "}
+            designing and operating cloud infrastructure, automation frameworks,
+            CI/CD pipelines, Kubernetes platforms, monitoring systems, and
+            containerized workloads. Over the years, I’ve worked on building{" "}
             <span
               className={`font-bold transition-colors duration-500 ${
                 darkMode ? "text-slate-100" : "text-slate-900"
@@ -53,7 +53,7 @@ const About = ({ darkMode, visibleElements }) => {
             >
               reliable, scalable, and secure systems
             </span>{" "}
-            using DevOps best practices across AWS environments.
+            by applying DevOps best practices across AWS environments.
           </p>
 
           {/* Paragraph 2: MLOps Transition */}
@@ -66,7 +66,7 @@ const About = ({ darkMode, visibleElements }) => {
           >
             I am currently transitioning into an{" "}
             <span className="font-bold text-orange-500">
-              MLOps Engineer
+              MLOps Engineering
             </span>{" "}
             role—an{" "}
             <span
@@ -76,8 +76,8 @@ const About = ({ darkMode, visibleElements }) => {
             >
               AI-focused engineering stream
             </span>{" "}
-            that combines machine learning and DevOps practices. I leverage my
-            DevOps background to support the{" "}
+            that brings together machine learning, cloud platforms, and DevOps
+            principles. I leverage my DevOps background to support the{" "}
             <span
               className={`font-bold transition-colors duration-500 ${
                 darkMode ? "text-slate-100" : "text-slate-900"
@@ -85,8 +85,9 @@ const About = ({ darkMode, visibleElements }) => {
             >
               MLOps lifecycle
             </span>
-            , including model deployment, experiment tracking, pipeline
-            automation, and monitoring machine learning systems in production.
+            , including model deployment strategies, experiment tracking,
+            pipeline automation, and monitoring machine learning systems in
+            production environments.
           </p>
 
           {/* Paragraph 3: Kubernetes & Future Vision */}
@@ -105,13 +106,14 @@ const About = ({ darkMode, visibleElements }) => {
             >
               bridging the gap between machine learning and production systems
             </span>
-            , ensuring that AI models are reproducible, scalable, observable,
-            and reliable when deployed at scale. I'm passionate about{" "}
+            , ensuring that ML models are reproducible, scalable, observable, and
+            reliable when deployed at scale. I'm passionate about{" "}
             <span className="font-bold text-orange-500">
               cloud-native technologies
             </span>
             , Kubernetes-based platforms, automation-first approaches, and
-            building end-to-end ML platforms on AWS.
+            building end-to-end ML platforms on AWS that enable teams to move
+            faster with confidence.
           </p>
 
         </div>

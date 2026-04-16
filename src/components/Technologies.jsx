@@ -55,7 +55,7 @@ const technologies = [
           } ${visibleElements.has("tech-subheading") ? "visible" : ""}`}
           style={{ transitionDelay: "0.1s" }}
         >
-          Tools and languages I work with
+          Tools and languages i work with
         </p>
 
         <div className="relative">
