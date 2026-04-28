@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./App.css";
+import { Analytics } from "@vercel/analytics/react";
 import Nav from "./components/Nav";
 import MenuOverlay from "./components/MenuOverlay";
 import Home from "./components/Home";
@@ -96,6 +97,9 @@ const Portfolio = () => {
 
       {/* Footer */}
       <Footer visibleElements={visibleElements} />
+
+      {/* Vercel Analytics */}
+      <Analytics />
     </div>
   );
 };
