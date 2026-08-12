@@ -18,8 +18,8 @@ const Experience = ({ darkMode, visibleElements }) => {
     {
       id: 2,
       icon: "⚙️",
-      title: `Gen and Agentic AI Engineer  ${experienceCompactText}`,
-      company: "Infosys (Clients: 2 USA based companies, 1 internal project)",
+      title: `GenAI & Agentic AI Engineer  ${experienceCompactText}`,
+      company: "Infosys | Enterprise Clients & Internal AI Projects",
       period: "November 2021 - Present",
       description: `Passionate about building scalable cloud and AI solutions across AWS, DevOps,
       Generative AI, and Agentic AI. Experienced in Infrastructure as Code, containerization, 
