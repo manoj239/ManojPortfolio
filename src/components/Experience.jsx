@@ -18,18 +18,13 @@ const Experience = ({ darkMode, visibleElements }) => {
     {
       id: 2,
       icon: "⚙️",
-      title: `AWS DevOps Engineer ${experienceCompactText}`,
-      company: "Infosys (Clients: MetLife, EBSCO)",
+      title: `Gen and Agentic AI Engineer  ${experienceCompactText}`,
+      company: "Infosys (Clients: 2 USA based companies, 1 internal project)",
       period: "November 2021 - Present",
-      description: `As an AWS DevOps Engineer at Infosys, I have been responsible for designing,
-implementing, and maintaining cloud infrastructure on AWS for clients like MetLife and EBSCO.
-
-My role involves automating deployment pipelines using CI/CD tools such as GitHub Actions,
-managing containerized applications with Docker and Kubernetes, and ensuring high availability
-and scalability of cloud resources.
-
-I have also worked extensively with Infrastructure as Code using Terraform and CloudFormation,
-enabling efficient provisioning, versioning, and management of AWS services.`,
+      description: `Passionate about building scalable cloud and AI solutions across AWS, DevOps,
+      Generative AI, and Agentic AI. Experienced in Infrastructure as Code, containerization, 
+      CI/CD, observability, RAG applications, AI Agents, multi-agent systems, and intelligent 
+      workflow automation using modern cloud and AI technologies.,
     },
   ];
 
