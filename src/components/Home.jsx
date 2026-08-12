@@ -21,8 +21,8 @@ const Home = ({ darkMode }) => {
               darkMode ? "text-slate-300" : "text-slate-700"
             }`}
           >
-           Passionate about Generative AI, Agentic AI, AWS Cloud, and DevOps. Building RAG 
-           applications, AI Agents, and intelligent automation solutions with LangChain, LangGraph,n8n
+           Passionate Engineer about Generative AI, Agentic AI, AWS Cloud, and DevOps. Building RAG 
+           applications, AI Agents, and intelligent automation solutions with LangChain, LangGraph,n8n,
            AWS Bedrock, and cloud-native technologies.
             </p>
         </div>

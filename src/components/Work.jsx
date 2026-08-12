@@ -15,7 +15,7 @@ const Work = ({ darkMode, visibleElements }) => {
             darkMode ? "text-slate-100" : "text-slate-900"
           } ${visibleElements.has("work-heading") ? "visible" : ""}`}
         >
-          Let’s Build Reliable Cloud Systems Together
+          Let's Build Intelligent Enterprise Solutions Together
         </h2>
         <p
           data-animate-id="work-text"
@@ -24,12 +24,14 @@ const Work = ({ darkMode, visibleElements }) => {
           } ${visibleElements.has("work-text") ? "visible" : ""}`}
           style={{ transitionDelay: "0.1s" }}
         >
-          I specialize in designing and operating scalable AWS cloud infrastructure, automating deployments
-          with CI/CD pipelines, and applying DevOps best practices to ensure reliability and performance.
-          Alongside this, I am transitioning into MLOps Engineering, focusing on integrating machine 
-          learning workflows with cloud platforms, automation, and Kubernetes for production‑ready ML 
-          systems.If you’re looking for someone who can optimize infrastructure or build reliable cloud 
-          platforms — let’s connect.!.
+          I specialize in Generative AI, Agentic AI, AWS Cloud, and DevOps, with hands-on experience
+          in building RAG applications, AI Agents, multi-agent workflows, and intelligent automation
+          solutions using LangChain, LangGraph, CrewAI, AWS Bedrock, and modern cloud technologies.
+          With a strong foundation in AWS, Terraform, Docker, Kubernetes, CI/CD, and Observability, 
+          I focus on building scalable, production-ready AI and cloud-native solutions that help 
+          organizations automate workflows and accelerate innovation. If you're looking to build 
+          AI-driven applications, automate enterprise workflows, or scale cloud infrastructure, 
+          let's connect..
         </p>
       </div>
     </section>
