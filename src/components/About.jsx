@@ -1,9 +1,8 @@
 import React from "react";
-import { getExperienceCompactText, getExperienceText } from '../utils/experience'
+import { getExperienceText } from '../utils/experience';
 
 const About = ({ darkMode, visibleElements }) => {
-  const experienceText = getExperienceText()
-  const experienceCompactText = getExperienceCompactText()
+  const experienceText = getExperienceText();
   return (
     <section
       id="about"
@@ -22,8 +21,7 @@ const About = ({ darkMode, visibleElements }) => {
         </h2>
 
         <div className="space-y-6 text-lg leading-relaxed">
-
-          {/* Paragraph 1: DevOps Foundation */}
+          {/* Paragraph 1 */}
           <p
             data-animate-id="about-p1"
             className={`scroll-reveal-left transition-colors duration-500 ${
@@ -31,32 +29,24 @@ const About = ({ darkMode, visibleElements }) => {
             } ${visibleElements.has("about-p1") ? "visible" : ""}`}
             style={{ transitionDelay: "0.1s" }}
           >
-            I'm an{" "}
+            I'm a{" "}
             <span
               className={`font-bold transition-colors duration-500 ${
                 darkMode ? "text-slate-100" : "text-slate-900"
               }`}
             >
-              AWS DevOps Engineer {experienceCompactText}
+              Senior Associate Consultant with {experienceText}
             </span>{" "}
-            with{" "}
+            including experience across{" "}
             <span className="font-bold text-orange-500">
-              hands-on experience
-            </span>{" "}
-            designing and operating cloud infrastructure, automation frameworks,
-            CI/CD pipelines, Kubernetes platforms, monitoring systems, and
-            containerized workloads. Over the years, I’ve worked on building{" "}
-            <span
-              className={`font-bold transition-colors duration-500 ${
-                darkMode ? "text-slate-100" : "text-slate-900"
-              }`}
-            >
-              reliable, scalable, and secure systems
-            </span>{" "}
-            by applying DevOps best practices across AWS environments.
+              Generative AI, Agentic AI, AWS Cloud, and DevOps
+            </span>
+            . My journey has involved delivering enterprise applications, cloud solutions,
+            infrastructure automation, and intelligent systems that help organizations
+            improve efficiency and accelerate innovation.
           </p>
 
-          {/* Paragraph 2: MLOps Transition */}
+          {/* Paragraph 2 */}
           <p
             data-animate-id="about-p2"
             className={`scroll-reveal-right transition-colors duration-500 ${
@@ -64,33 +54,16 @@ const About = ({ darkMode, visibleElements }) => {
             } ${visibleElements.has("about-p2") ? "visible" : ""}`}
             style={{ transitionDelay: "0.2s" }}
           >
-            I am currently transitioning into an{" "}
+            I have worked on{" "}
             <span className="font-bold text-orange-500">
-              MLOps Engineering
+              AI assistants, enterprise knowledge retrieval platforms, intelligent
+              decision-support systems, and AI-powered automation solutions
             </span>{" "}
-            role—an{" "}
-            <span
-              className={`font-bold transition-colors duration-500 ${
-                darkMode ? "text-slate-100" : "text-slate-900"
-              }`}
-            >
-              AI-focused engineering stream
-            </span>{" "}
-            that brings together machine learning, cloud platforms, and DevOps
-            principles. I leverage my DevOps background to support the{" "}
-            <span
-              className={`font-bold transition-colors duration-500 ${
-                darkMode ? "text-slate-100" : "text-slate-900"
-              }`}
-            >
-              MLOps lifecycle
-            </span>
-            , including model deployment strategies, experiment tracking,
-            pipeline automation, and monitoring machine learning systems in
-            production environments.
+            using LLMs, RAG, LangChain, LangGraph, CrewAI, AWS Bedrock, embeddings,
+            vector databases, tool calling, and multi-agent workflows.
           </p>
 
-          {/* Paragraph 3: Kubernetes & Future Vision */}
+          {/* Paragraph 3 */}
           <p
             data-animate-id="about-p3"
             className={`scroll-reveal-left transition-colors duration-500 ${
@@ -98,24 +71,22 @@ const About = ({ darkMode, visibleElements }) => {
             } ${visibleElements.has("about-p3") ? "visible" : ""}`}
             style={{ transitionDelay: "0.3s" }}
           >
-            My focus is on{" "}
+            My experience with{" "}
             <span
               className={`font-bold transition-colors duration-500 ${
                 darkMode ? "text-slate-100" : "text-slate-900"
               }`}
             >
-              bridging the gap between machine learning and production systems
-            </span>
-            , ensuring that ML models are reproducible, scalable, observable, and
-            reliable when deployed at scale. I'm passionate about{" "}
+              Infrastructure as Code, containerization, CI/CD, observability, cloud
+              operations, and automation
+            </span>{" "}
+            enables me to build scalable, reliable, and production-ready solutions.
+            I continuously explore technologies such as{" "}
             <span className="font-bold text-orange-500">
-              cloud-native technologies
-            </span>
-            , Kubernetes-based platforms, automation-first approaches, and
-            building end-to-end ML platforms on AWS that enable teams to move
-            faster with confidence.
+              MCP, n8n, LangSmith, RAGAS, and advanced Agentic AI frameworks
+            </span>{" "}
+            to solve real-world business challenges through intelligent and practical solutions.
           </p>
-
         </div>
       </div>
     </section>
