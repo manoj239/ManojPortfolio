@@ -24,7 +24,7 @@ const Experience = ({ darkMode, visibleElements }) => {
       description: `Passionate about building scalable cloud and AI solutions across AWS, DevOps,
       Generative AI, and Agentic AI. Experienced in Infrastructure as Code, containerization, 
       CI/CD, observability, RAG applications, AI Agents, multi-agent systems, and intelligent 
-      workflow automation using modern cloud and AI technologies.,
+      workflow automation using modern cloud and AI technologies.',
     },
   ];
 
