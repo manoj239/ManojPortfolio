@@ -25,6 +25,7 @@ const Home = ({ darkMode }) => {
             with 5+ years of experience across AI Engineering, AWS Cloud, and DevOps. Experienced 
             in building scalable RAG applications, AI Agents, and intelligent automation solutions
             using LangChain, LangGraph, CrewAI, AWS Bedrock, and cloud-native technologies.
+            </p>
         </div>
       </div>
     </section>
