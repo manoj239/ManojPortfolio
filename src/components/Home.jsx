@@ -21,10 +21,10 @@ const Home = ({ darkMode }) => {
               darkMode ? "text-slate-300" : "text-slate-700"
             }`}
           >
-            AWS DevSecOps Engineer focused on building scalable AWS cloud platforms using automation,
-            Kubernetes, and CI/CD pipelines, currently transitioning into MLOps Engineering to support
-            production‑grade ML systems..
-          </p>
+            Passionate Senior Associate Consultant specializing in Generative AI and Agentic AI, 
+            with 5+ years of experience across AI Engineering, AWS Cloud, and DevOps. Experienced 
+            in building scalable RAG applications, AI Agents, and intelligent automation solutions
+            using LangChain, LangGraph, CrewAI, AWS Bedrock, and cloud-native technologies.
         </div>
       </div>
     </section>
