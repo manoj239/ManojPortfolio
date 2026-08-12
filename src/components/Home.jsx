@@ -21,10 +21,9 @@ const Home = ({ darkMode }) => {
               darkMode ? "text-slate-300" : "text-slate-700"
             }`}
           >
-            Passionate Senior Associate Consultant specializing in Generative AI and Agentic AI, 
-            with 5+ years of experience across AI Engineering, AWS Cloud, and DevOps. Experienced 
-            in building scalable RAG applications, AI Agents, and intelligent automation solutions
-            using LangChain, LangGraph, CrewAI, AWS Bedrock, and cloud-native technologies.
+           Passionate about Generative AI, Agentic AI, AWS Cloud, and DevOps. Building RAG 
+           applications, AI Agents, and intelligent automation solutions with LangChain, LangGraph,n8n
+           AWS Bedrock, and cloud-native technologies.
             </p>
         </div>
       </div>
