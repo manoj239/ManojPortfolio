@@ -11,8 +11,9 @@ const Experience = ({ darkMode, visibleElements }) => {
       title: "B.Tech in EEE from LBRCE College, Vijayawada, A.P",
       College: "Lakireddy Bali Reddy College of Engineering",
       period: "2017 - 2021",
-      description: `Graduated with a Bachelor's degree in Electrical & Electronics Engineering. Built strong analytical and engineering fundamentals,
-which later transitioned into cloud computing, DevOps practices, and automation.`,
+      description: `Graduated with a Bachelor's degree in Electrical & Electronics Engineering.Built
+       a strong foundation in problem-solving, analytical thinking, and engineering principles, which
+       later evolved into expertise across AWS Cloud, DevOps, Generative AI, and Agentic AI..`,
     },
     {
       id: 2,
