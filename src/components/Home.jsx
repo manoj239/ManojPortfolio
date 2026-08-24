@@ -21,9 +21,9 @@ const Home = ({ darkMode }) => {
               darkMode ? "text-slate-300" : "text-slate-700"
             }`}
           >
-           Passionate Engineer about Generative AI, Agentic AI, AWS Cloud, and DevOps. Building RAG 
-           applications, AI Agents, and intelligent automation solutions with LangChain, LangGraph,n8n,
-           AWS Bedrock, and cloud-native technologies.
+           Building intelligent AI solutions with Generative AI, Agentic AI, AWS Cloud, and DevOps.
+           Experienced in developing RAG applications, AI agents, and enterprise automation using
+           LangChain, LangGraph, n8n, AWS Bedrock, and MCP..
             </p>
         </div>
       </div>

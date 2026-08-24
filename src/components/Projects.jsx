@@ -15,6 +15,18 @@ Kubernetes cluster setup, monitoring with Prometheus and Grafana, and Bash/Pytho
     },
     {
       id: 2,
+      title: "Generative AI & Agentic AI Engineering",
+      description: `A hands-on repository covering Generative AI and Agentic AI development, including
+  LLM fundamentals, prompt engineering, Hugging Face Transformers, tokenization, embeddings, 
+  vector databases, RAG pipelines, LangChain, LangGraph, AI agents, tool calling, MCP integrations,
+  multi-agent workflows, and AI-powered automation. The repository brings together practical 
+  implementations, experiments, and end-to-end solutions for building intelligent applications.`,
+      icon: "🧠",
+      demo: null,
+      github: "https://github.com/manoj239/GEN-AGENTICAI.git",
+    },
+    {
+      id: 3,
       title: "MLOps Engineering (Need to update)",
       description: `A focused MLOps repository demonstrating AI production engineering fundamentals by
 applying DevOps practices to the MLOps lifecycle, including CI/CD for ML workflows, automation, model
@@ -22,7 +34,7 @@ deployment concepts, experiment tracking, and monitoring ML systems using cloud�
       icon: "🤖",
       demo: null, // Learning-focused MLOps repo
       github: "https://github.com/manoj239/ML-Yellow",
-    },
+    }
   ];
 
   return (
