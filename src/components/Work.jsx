@@ -31,7 +31,8 @@ const Work = ({ darkMode, visibleElements }) => {
           me to bridge intelligent applications with scalable and reliable infrastructure. I enjoy
           turning complex business challenges into practical, production-ready solutions that 
           improve efficiency, automate repetitive processes, and create measurable value.If you’re 
-          looking for a Generative AI, Agentic AI, or AI Engineering professional with a strong AWS and DevOps background, let’s connect.r.
+          looking for a Generative AI, Agentic AI, or AI Engineering professional with a strong 
+          AWS and DevOps background, let’s connect.
         </p>
       </div>
     </section>
