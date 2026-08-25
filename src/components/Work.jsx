@@ -24,15 +24,14 @@ const Work = ({ darkMode, visibleElements }) => {
           } ${visibleElements.has("work-text") ? "visible" : ""}`}
           style={{ transitionDelay: "0.1s" }}
         >
-          I specialize in Generative AI, Agentic AI, AWS Cloud, and DevOps, building RAG 
-          applications, AI agents, multi-agent systems, and intelligent automation workflows with
-          technologies including LangChain, LangGraph, CrewAI, and AWS Bedrock. My cloud and DevOps
-          background across AWS, Terraform, Docker, Kubernetes, CI/CD, and observability enables
-          me to bridge intelligent applications with scalable and reliable infrastructure. I enjoy
-          turning complex business challenges into practical, production-ready solutions that 
-          improve efficiency, automate repetitive processes, and create measurable value.If you’re 
-          looking for a Generative AI, Agentic AI, or AI Engineering professional with a strong 
-          AWS and DevOps background, let’s connect.
+          I specialize in Generative AI, Agentic AI, AWS Cloud, and DevOps, with experience in 
+          knowledge retrieval, multi-agent workflows, platform automation, and enterprise 
+          integrations using LangChain, LangGraph, CrewAI, AWS Bedrock, MCP, and n8n. With a strong
+          foundation in cloud operations and automation, I focus on applying AI and engineering 
+          practices to simplify complex processes, improve access to information, and deliver 
+          practical business outcomes. I'm passionate about the intersection of AI, cloud 
+          technologies, and automation. If you'd like to discuss ideas, technology, or potential 
+          collaboration opportunities, let's connect 😊.
         </p>
       </div>
     </section>

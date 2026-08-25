@@ -21,10 +21,10 @@ const Experience = ({ darkMode, visibleElements }) => {
       title: `GenAI & Agentic AI Engineer  ${experienceCompactText}`,
       company: "Infosys | Enterprise Clients & Internal AI Projects",
       period: "November 2021 - Present",
-      description: `Passionate about building scalable cloud and AI solutions across AWS, DevOps,
-      Generative AI, and Agentic AI. Experienced in Infrastructure as Code, containerization, 
-      CI/CD, observability, RAG applications, AI Agents, multi-agent systems, and intelligent 
-      workflow automation using modern cloud and AI technologies.`,
+      description: `Contributing across cloud engineering, platform operations, knowledge-driven
+      applications, and intelligent automation initiatives. Experience includes Infrastructure as 
+      Code, container platforms, CI/CD, observability, RAG systems, multi-agent workflows, and enterprise integrations,
+      working with global teams and stakeholders to deliver business value.`,
     },
   ];
 

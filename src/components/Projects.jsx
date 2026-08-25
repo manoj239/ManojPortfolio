@@ -18,7 +18,7 @@ Kubernetes cluster setup, monitoring with Prometheus and Grafana, and Bash/Pytho
       title: "Generative AI & Agentic AI Engineering",
       description: `A hands-on repository covering Generative AI and Agentic AI development, including
   LLM fundamentals, prompt engineering, Hugging Face Transformers, tokenization, embeddings, 
-  vector databases, RAG pipelines, LangChain, LangGraph, AI agents, tool calling, MCP integrations,
+  vector databases, RAG pipelines, LangChain, CrewAI, LangGraph, AI agents, tool calling, MCP integrations,
   multi-agent workflows, and AI-powered automation. The repository brings together practical 
   implementations, experiments, and end-to-end solutions for building intelligent applications.`,
       icon: "🧠",
@@ -61,9 +61,8 @@ deployment concepts, experiment tracking, and monitoring ML systems using cloud�
               darkMode ? "text-slate-400" : "text-slate-600"
             }`}
           >
-            Hands‑on projects demonstrating real‑world experience in building scalable, automated, 
-            and production‑ready cloud, DevOps, Kubernetes, and MLOps systems using AWS and modern
-            tooling.
+            A collection of POCs showcasing practical experience across Generative AI, Agentic AI,
+            RAG, AWS Cloud Engineering, DevOps, and intelligent workflow automation..
 
           </p>
         </div>

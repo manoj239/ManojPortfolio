@@ -41,9 +41,9 @@ const About = ({ darkMode, visibleElements }) => {
             <span className="font-bold text-orange-500">
               Generative AI, Agentic AI, AWS Cloud, and DevOps
             </span>
-            . My journey has involved delivering enterprise applications, cloud solutions,
-            infrastructure automation, and intelligent systems that help organizations
-            improve efficiency and accelerate innovation.
+            . My journey has involved working on cloud platforms, knowledge-driven applications, 
+            workflow orchestration, and enterprise integrations that help organizations improve 
+            efficiency and accelerate innovation..
           </p>
 
           {/* Paragraph 2 */}
@@ -54,7 +54,7 @@ const About = ({ darkMode, visibleElements }) => {
             } ${visibleElements.has("about-p2") ? "visible" : ""}`}
             style={{ transitionDelay: "0.2s" }}
           >
-            I have worked on{" "}
+            I have contributed to{" "}
             <span className="font-bold text-orange-500">
               AI assistants, enterprise knowledge retrieval platforms, intelligent
               decision-support systems, and AI-powered automation solutions
