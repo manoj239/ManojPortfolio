@@ -15,7 +15,7 @@ const Work = ({ darkMode, visibleElements }) => {
             darkMode ? "text-slate-100" : "text-slate-900"
           } ${visibleElements.has("work-heading") ? "visible" : ""}`}
         >
-          Building Intelligent AI Solutions
+          From Cloud Engineering to Agentic AI
         </h2>
         <p
           data-animate-id="work-text"
